@@ -20,3 +20,12 @@ conda install --file requirements.txt
 ```
    
 6. Run individual blocks for the final results.
+
+<h2>Project description:</h2>
+The project is divided into the parts: analysis of sentiment coming from Youtube comments and and Individual Clients analysis.
+
+<h3>Youtube Comments Sentiment Analysis</h3>
+
+
+<h3>Analysis of Sentiment of Individual Clients</h3>
+
