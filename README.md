@@ -25,7 +25,25 @@ conda install --file requirements.txt
 The project is divided into the parts: analysis of sentiment coming from Youtube comments and and Individual Clients analysis.
 
 <h3>Youtube Comments Sentiment Analysis</h3>
+The notebook is designed to perform sentiment analysis on comments from YouTube videos. It likely analyzes the emotional tone (positive, negative, neutral) of user comments using Natural Language Processing (NLP) techniques.
 
+<h3>Libraries and Setup:</h3>
+It imports a variety of libraries for:
 
-<h3>Analysis of Sentiment of Individual Clients</h3>
+Data Handling: pandas, numpy
+Visualization: matplotlib, seaborn
 
+NLP: nltk (including stopwords, punkt, vader_lexicon)
+Clustering & Vectorization: TfidfVectorizer, MiniBatchKMeans
+Dimensionality Reduction: PCA, TSNE
+
+Tokenizer (punkt)
+Sentiment lexicon (VADER)
+
+<h3>Data Sources:</h3>
+Two datasets are loaded:
+
+merged_comments.xlsx: Contains the actual YouTube comments.
+yt_channels_topics.xlsx: Contains metadata or topic categories for the associated YouTube channels.
+
+The final results are presented in the project file.
